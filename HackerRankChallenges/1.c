@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main() 
 {
-    char str[100];  //Character array
-    scanf("%[^\n]%*c",&str); //Getting input from the user
-    printf("%s",str); //Printing it on console
+    char str1[25] = "Hello, World!"; 
+    char str2[25];  //Character array
+    
+    printf("%s \n",str1); //Printing it on console
+    scanf("%[^\n]%*c",&str2); //Getting input from the user
+    printf("%s",str2); 
+    
     return 0;
 }
